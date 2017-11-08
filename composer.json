@@ -1,0 +1,30 @@
+{
+    "name": "lukas-jenicek/parse-asko",
+    "description": "Parse leaflets and print out in defined structure",
+    "authors": [
+        {
+            "name": "Lukas Jenicek",
+            "email": "lukas.jenicek5@gmail.com"
+        }
+    ],
+    "config": {
+        "platform": {
+            "php": "7.1.0"
+        }
+    },
+    "require": {
+        "php": ">=7.1.0",
+        "paquettg/php-html-parser": "^1.7",
+        "phpunit/phpunit": "^6.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aska\\": "libs/Aska/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\Aska\\": "tests/Aska/"
+        }
+    }
+}
